@@ -1,0 +1,67 @@
+<!DOCTYPE hmtl>
+<html>
+<!-- HEAD OF THE PAGE -->
+<head>
+    <meta charset="utf-8">
+    <title>Contact Game Bros.</title>
+    
+    <link rel="stylesheet" href="SiteStyle/Global.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+    
+
+    <!-- BODY OF THE PAGE -->
+<body>
+    <!-- Class named "top" to identify top of page. --> 
+    <header class="top">
+        
+        <!-- Creating a clickable image linked to the homepage -->
+        <a href="Index.html">
+            <aside>
+                <img src="SiteImage/Logo.png" alt="SiteLogo">
+            </aside>
+        </a>
+          
+        <nav>
+            <ul>
+                <a href="Index.html"><li>Home</li></a>
+                <a href="Lists.html"><li>List</li></a>
+                <a href="ContactUs.html"><li>Contact</li></a>
+                <a href="AboutPage.html"><li>About</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- This is where the form begins. -->
+    <form action="form.php" method="post">
+        <fieldset>
+            <legend>Contact Game Bros!</legend>
+            <p>Want to send us a message? Fill all the fields below:</p>
+            <label for="name"> Name:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="comments">Message:</label>
+            <textarea cols="25" rows="5" name="comments" required></textarea>
+            <br>
+            <br>
+            <input type="submit" name="Submit" value="Submit" id="submit">
+        </fieldset>
+    </form>
+    
+    <!-- FOOTER OF THE PAGE -->
+    <footer id="ContactFoot">
+        <nav>
+            <ul>
+                <a href="Index.html"><li>Home</li></a>
+                <a href="Lists.html"><li>List</li></a>
+                <a href="ContactUs.html"><li>Contact</li></a>
+                <a href="AboutPage.html"><li>About</li></a>
+            </ul>
+        </nav>
+    </footer>
+    
+
+</body>
+</html>
